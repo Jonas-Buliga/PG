@@ -1,4 +1,5 @@
 def je_prvocislo(cislo):
+    
     if cislo < 2:
         return False
     for i in range(2, int(cislo ** 0.5) + 1):
@@ -15,5 +16,4 @@ def vrat_prvocisla(maximum):
 if __name__ == "__main__":
     cislo = input("Zadej maximum: ")
     prvocisla = vrat_prvocisla(cislo)
-    print(prvocisla)  
- 
+    print(prvocisla)
