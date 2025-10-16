@@ -19,6 +19,8 @@ def cislo_text(cislo):
             return desitky[desitky_c]
         else:
             return f"{desitky[desitky_c]} {jednotky[jednotka_c]}"
+    elif cislo == 100:
+        return "sto"
     else:
         return "neznámé číslo"
 
