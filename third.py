@@ -13,6 +13,7 @@ def vrat_prvocisla(maximum):
     """
     return [2,3,5]
 
+
 if __name__ == "__main__":
     cislo = input("Zadej maximum: ")
     prvocisla = vrat_prvocisla(cislo)
