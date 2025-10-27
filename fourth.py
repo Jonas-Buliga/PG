@@ -106,8 +106,7 @@ def je_tah_mozny_strelec(pozice, cilova_pozice, obsazene_pozice):
 
 
 def je_tah_mozny_dama(pozice, cilova_pozice, obsazene_pozice):
-    return je_tah_mozny_vez(pozice, cilova_pozice, obsazene_pozice) or \
-           je_tah_mozny_strelec(pozice, cilova_pozice, obsazene_pozice)
+    return je_tah_mozny_vez(pozice, cilova_pozice, obsazene_pozice) or je_tah_mozny_strelec(pozice, cilova_pozice, obsazene_pozice)
 
 
 def je_tah_mozny_kral(pozice, cilova_pozice):
