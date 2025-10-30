@@ -114,7 +114,8 @@ def je_tah_mozny_kral(pozice, cilova_pozice):
     cil_radek, cil_sloupec = cilova_pozice
     if abs(cil_radek - radek) <= 1 and abs(cil_sloupec - sloupec) <= 1:
         return True
-
+    else:
+        return False
 
 
 
