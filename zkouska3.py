@@ -34,8 +34,7 @@ class Rectangle(Shape):
         self.height = height
 
     def area(self):
-        return round(self.width * self.height, 1) + 0.0   
-
+        return round(float(self.width * self.height), 1) 
 
 import math
 
@@ -45,7 +44,7 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return round(math.pi * self.radius ** 2, 1) + 0.0
+        return round(float(math.pi * self.radius ** 2), 1)
 
     def __str__(self):
         return f"{self.shape_name} shape with a radius of {self.radius} has an area of {self.area()}"
